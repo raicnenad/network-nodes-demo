@@ -1,3 +1,4 @@
+package com.example.network_nodes_demo;
 public class Node {
 
     private Long id;

@@ -1,3 +1,5 @@
+package com.example.network_nodes_demo;
+
 public class BasebandNode extends Node {
 
     private String boardType;
