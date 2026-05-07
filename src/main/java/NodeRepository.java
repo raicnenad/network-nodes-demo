@@ -1,4 +1,4 @@
-package com.example.networknodesdemo;
+package com.example.network_nodes_demo;
 import java.util.ArrayList;
 import java.util.List;
 public class NodeRepository {
