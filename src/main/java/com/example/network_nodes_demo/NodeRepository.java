@@ -11,4 +11,11 @@ public class NodeRepository {
     public List<Node> findAll() {
         return nodes;
     }
+    public Node findById(Long id) {
+        return nodes.stream()
+                .filter(n -> n.getId().equals(id))
+                .findFirst()
+                .orElse(null);
+    }
+
 }
